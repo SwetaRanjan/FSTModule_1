@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="parameter tests">
+    <test name="vegetable test">
+        <parameter name="ladyfinger" value="potato"></parameter>
+        <classes>
+            <class name="org.example.Vegetable"></class>
+        </classes>
+    </test>
+    <test name="fruit test">
+        <parameter name="orange" value="guava"></parameter>
+        <classes>
+            <class name="org.example.Fruit"></class>
+        </classes>
+    </test><!-- Test -->
+</suite> <!-- Suite -->
+        <!--parameter listener and attribute-->

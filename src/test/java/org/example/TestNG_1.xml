@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test_suite">
+    <groups>
+        <run>
+            <include name="smoketest"></include>
+        </run>
+    </groups>
+    <test name="Test 1">
+        <classes>
+<!--            <class name="org.example.Class2"/>-->
+            <class name="org.example.Class3">
+                <methods>
+                    <exclude name="B_b_test"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+<!--    <test name="Test 2">-->
+<!--        <classes>-->
+<!--            <class name="org.example.Class2"/>-->
+<!--        </classes>-->
+<!--    </test> &lt;!&ndash; Test &ndash;&gt;-->
+</suite> <!-- Suite -->
+        <!--parameter listener and attribute-->

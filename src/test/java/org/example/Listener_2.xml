@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Listener 1">
+    <listeners>
+        <listener class-name="org.example.Listners_1_implementation"></listener>
+    </listeners>
+    <test name="listener test 1">
+        <classes>
+            <class name="org.example.Listner_3"></class>
+            <class name="org.example.Listner_4"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
+        <!--parameter listener and attribute-->
